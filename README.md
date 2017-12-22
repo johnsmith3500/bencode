@@ -2,7 +2,7 @@ Simple decoder of bencoded data.
 Language: php.  
 Procedural style.  
 Bencode data must begin with a dictionary or a list.  
-Usage example:  
+Usage example #1:  
     Your php script:  
     &lt;?php  
     require_once 'bencode_decoder.php';  
@@ -19,3 +19,5 @@ Usage example:
         [cow] => moo  
         [spam] => eggs  
     )
+Usage example #2:
+![alt text](https://github.com/johnsmith3500/bencode/blob/master/bencode.png)
